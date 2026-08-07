@@ -1,0 +1,9 @@
+# Full partition captures are provenance inputs, not repository artifacts.
+/*.img
+/*.bin
+
+# Local verification and editor leftovers.
+/out/
+*.orig
+*.tmp
+*~
