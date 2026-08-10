@@ -107,7 +107,6 @@ mtk-kpd.ko
 hxchipset_iic_hx83108d.ko
 ilitek.ko
 regulator-vibrator.ko
-haptic_rt6010.ko
 mtk_dcm.ko
 mt6789_dcm.ko
 mt6375.ko
