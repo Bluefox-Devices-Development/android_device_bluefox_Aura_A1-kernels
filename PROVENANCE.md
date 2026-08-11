@@ -26,10 +26,12 @@ the stock AVB footer so the Android build can generate the final footer once.
 | --- | ---: | ---: | ---: |
 | `system_dlkm` | 83 | 83 | — |
 | `vendor_dlkm` | 188 | 169 | — |
-| Vendor ramdisk | 174 | 166 | 170 |
+| Vendor ramdisk | 174 | 166 | 169 |
 
-Modules and their dependency metadata remain byte-for-byte in their stock
-partition directories. Duplicate basenames across partitions are distinct
-binaries and must not be flattened or deduplicated.
+Module binaries and their dependency metadata remain byte-for-byte in their
+stock partition directories. The recovery load policy is the sole exception:
+`modules.load.recovery` omits `haptic_rt6010.ko` to avoid the stock driver's
+force-feedback teardown crash when recovery exits. Duplicate basenames across
+partitions are distinct binaries and must not be flattened or deduplicated.
 
 `SHA256SUMS` covers only the build artifacts below `6.12/`.
