@@ -29,7 +29,6 @@
 /system_dlkm/lib/modules/ppp_mppe.ko: /system_dlkm/lib/modules/libarc4.ko /system_dlkm/lib/modules/ppp_generic.ko /system_dlkm/lib/modules/slhc.ko
 /system_dlkm/lib/modules/cctrng.ko:
 /system_dlkm/lib/modules/netfs.ko:
-/system_dlkm/lib/modules/tls.ko:
 /system_dlkm/lib/modules/nhc_fragment.ko: /system_dlkm/lib/modules/6lowpan.ko
 /system_dlkm/lib/modules/6lowpan.ko:
 /system_dlkm/lib/modules/cdc_eem.ko: /system_dlkm/lib/modules/usbnet.ko /system_dlkm/lib/modules/mii.ko

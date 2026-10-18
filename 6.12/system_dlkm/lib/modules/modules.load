@@ -53,7 +53,6 @@ btqca.ko
 gnss.ko
 8021q.ko
 vmw_vsock_virtio_transport.ko
-tls.ko
 can.ko
 can-raw.ko
 can-bcm.ko
