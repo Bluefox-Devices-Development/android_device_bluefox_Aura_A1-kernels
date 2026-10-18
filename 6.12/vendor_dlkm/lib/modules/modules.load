@@ -100,7 +100,7 @@ mtk_perf_ioctl.ko
 cfg80211.ko
 sspm_v3.ko
 wmt_drv.ko
-flashlight-bct3140.ko
+flashlight-ocp8111_pwm.ko
 flashlight.ko
 mainaf.ko
 main2af.ko

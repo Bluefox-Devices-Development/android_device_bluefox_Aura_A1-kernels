@@ -145,8 +145,6 @@ alias of:N*T*Cmediatek,md-power-throttlingC* mtk_md_power_throttling
 alias of:N*T*Crichtek,rt5512 snd_soc_rt5512
 alias of:N*T*Crichtek,rt5512C* snd_soc_rt5512
 alias i2c:rt5512 snd_soc_rt5512
-alias of:N*T*Cmediatek,flashlights_bct3140 flashlight_bct3140
-alias of:N*T*Cmediatek,flashlights_bct3140C* flashlight_bct3140
 alias of:N*T*Csyscon-reboot-mode syscon_reboot_mode
 alias of:N*T*Csyscon-reboot-modeC* syscon_reboot_mode
 alias of:N*T*Cmediatek,scp-audio-core mtk_scp_audiocommon
@@ -165,6 +163,8 @@ alias of:N*T*Cmediatek,mtk-lpm mtk_lpm_dbg_common_v1_legacy
 alias of:N*T*Cmediatek,mtk-lpmC* mtk_lpm_dbg_common_v1_legacy
 alias of:N*T*Cmediatek,drm_wv widevine_driver
 alias of:N*T*Cmediatek,drm_wvC* widevine_driver
+alias of:N*T*Cmediatek,flashlights_ocv8111bvad flashlight_ocp8111_pwm
+alias of:N*T*Cmediatek,flashlights_ocv8111bvadC* flashlight_ocp8111_pwm
 alias of:N*T*Cmediatek,snd-audio-dsp snd_soc_audiodsp_common
 alias of:N*T*Cmediatek,snd-audio-dspC* snd_soc_audiodsp_common
 alias of:N*T*Cmediatek,camera_eeprom camera_eeprom
