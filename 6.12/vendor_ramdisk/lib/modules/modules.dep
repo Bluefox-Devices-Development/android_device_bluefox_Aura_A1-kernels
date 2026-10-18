@@ -171,4 +171,4 @@
 /lib/modules/mt63xx-debug.ko:
 /lib/modules/cmdq-platform-mt6789.ko: /lib/modules/mtk-cmdq-drv-ext.ko /lib/modules/irq-dbg.ko /lib/modules/mmprofile.ko /lib/modules/iommu_debug.ko /lib/modules/mtk-smi-dbg.ko /lib/modules/emi.ko /lib/modules/emi-mpu.ko /lib/modules/mtk-smi.ko /lib/modules/device-apc-common.ko /lib/modules/mrdump.ko /lib/modules/clk-common.ko /lib/modules/aee_aed.ko
 /lib/modules/mtk-mmdvfs-ftrace.ko:
-/lib/modules/focaltech_fp.ko: /lib/modules/isee.ko /lib/modules/bootprof.ko /lib/modules/spi-mt65xx.ko /lib/modules/irq-dbg.ko /lib/modules/mtk_disp_notify.ko
+/lib/modules/focaltech_fp.ko: /lib/modules/isee.ko /lib/modules/bootprof.ko /lib/modules/spi-mt65xx.ko /lib/modules/irq-dbg.ko /lib/modules/jzhkhwinfo.ko /lib/modules/mtk_disp_notify.ko

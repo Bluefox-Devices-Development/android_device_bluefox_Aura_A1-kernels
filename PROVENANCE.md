@@ -1,22 +1,22 @@
 # Artifact provenance
 
 All artifacts come from the Bluefox Aura A1 stock release
-`BLUEFOX_J583_A8_Aura_A1_EN_8_128_V1.0.0_20260610`, fingerprint
-`BLUEFOX/Aura_A1/Aura_A1:16/BP2A.250605.031.A3/20260610:user/release-keys`.
+`BLUEFOX_J583_A8_Aura_A1_EN_V1.0.1_20260924_09241748`, fingerprint
+`BLUEFOX/Aura_A1/Aura_A1t:16/BP2A.250605.031.A3/20260924:user/release-keys`.
 
 ## Kernel and device trees
 
 | Artifact | Size | SHA-256 |
 | --- | ---: | --- |
-| Stock `boot_a` partition | 67,108,864 | `d017e6df9c3e718810cb30e80dc68753b10ef97bcb0ab299d8f60a5514bfd381` |
-| `6.12/Image.lz4` | 19,839,499 | `f061bde7215446a26ffdeef20840a9e33124ff297dbf126de028149f3acc0594` |
-| Stock `vendor_boot.img` | 67,108,864 | `89f8ee44bf63082440f5da0bfd5909962dc4579259b485735be1efb9fd813b17` |
-| `6.12/dtb/mt6789.dtb` | 191,600 | `ffb247b59b04eb8885ced9e3b61a5eb93ad7917c1876da0432655c6448e38d66` |
-| Stock DTBO partition | 8,388,608 | `f133e788de051cbd3084f3686e5681b1c05f28d5335d12c9536ab9da3c71e4ad` |
-| `6.12/dtbo.img` | 37,120 | `74a9b258fc88a93a7838e8ead56023cd30ed12080428025b46c66380f0b715ca` |
+| Stock `boot.img` | 67,108,864 | `b54695d5ccd088203a45c9ce1f4fbc8d239d5fda7b6686681690b03f211e8834` |
+| `6.12/Image.lz4` | 20,227,821 | `0bcdaf4b6136927caf69b616cec16fa65ffb02dab3bdbf8f4258ab93d60a5bf2` |
+| Stock `vendor_boot.img` | 67,108,864 | `9a405b6b8acf3995b679bd28f68d36979e1cb5c776fc4faf742dec3d1dab3444` |
+| `6.12/dtb/mt6789.dtb` | 192,144 | `2f1080e378a21ac3b8741dc56886036c90c63d54db4f0b4f1206584927953089` |
+| Stock DTBO partition | 8,388,608 | `0660ef29c58efa77fb8773567a6e181af85a1a071bc67368f936f0eb9d643592` |
+| `6.12/dtbo.img` | 37,856 | `6fa684e7ac4e402a1938ff793dc8de7880a8f107d581c3c8876794c82f334b3f` |
 
 The kernel reports
-`6.12.58-android16-6-gb0a9599c6c01-ab14987696-4k`. The repository stores the
+`6.12.69-android16-6-g86dc53cfe87f-ab15464463-4k`. The repository stores the
 kernel payload rather than a complete boot image. The DTBO build input excludes
 the stock AVB footer so the Android build can generate the final footer once.
 
@@ -24,7 +24,7 @@ the stock AVB footer so the Android build can generate the final footer once.
 
 | Partition source | Modules | Normal load list | Recovery load list |
 | --- | ---: | ---: | ---: |
-| `system_dlkm` | 83 | 83 | — |
+| `system_dlkm` | 82 | 82 | — |
 | `vendor_dlkm` | 188 | 169 | — |
 | Vendor ramdisk | 174 | 166 | 169 |
 
